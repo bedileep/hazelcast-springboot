@@ -16,8 +16,7 @@ public class EmployeeSerializer implements StreamSerializer<Employee>{
 	
 	@Override
 	public void write(ObjectDataOutput out, Employee employee) throws IOException {
-		
-		
+			
 		out.writeInt(employee.getId());
 		out.writeInt(employee.getPersonId());
 		out.writeUTF(employee.getCompany());

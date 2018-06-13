@@ -31,7 +31,6 @@ public class CacheConfig {
 		SerializerConfig sc = new SerializerConfig();
 		sc.setTypeClass(Employee.class);
 		sc.setClass(EmployeeSerializer.class);
-		
 		config.getSerializationConfig().addSerializerConfig(sc);
 		
 		return config;

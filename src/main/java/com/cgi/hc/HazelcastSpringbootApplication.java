@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HazelcastSpringbootApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(HazelcastSpringbootApplication.class, args);
+		
 	}
 }

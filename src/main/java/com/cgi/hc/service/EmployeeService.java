@@ -34,6 +34,7 @@ public class EmployeeService {
 	@PostConstruct
 	public void init() {
 		
+		
 		map = instance.getMap("employee");
 		map.addIndex("company", true);
 		logger.info("Employees cache: " + map.size());
